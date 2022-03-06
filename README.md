@@ -1,1 +1,1 @@
-# odin-landingpage
+Welcome to my first web page design! The goal of this project is to utilize both flexbox and html to create a well organized web page. It is important to be able to understand how to align content as it sets the foundation to create a user firendly interface.
