@@ -1,21 +1,21 @@
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
+
   display: flex;
   flex-direction: column;
-  width: fit-content;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
   align-items: center;
   font-weight: bold;
-  /* flex-shrink: 0; */
-  background-color: rgba(245, 245, 220, 0.062);
+  background-color: rgba(0, 0, 0, 0.349);
   padding: 20px;
 }
 .header {
-  background-color: black;
+  background-color: darkolivegreen;
   color: white;
   padding: 20px 100px;
 }
@@ -42,7 +42,7 @@ button:hover {
   background-color: darkorange;
 }
 .left {
-  background-color: rgba(245, 222, 179, 0.062);
+  background-color: rgba(245, 222, 179, 0.404);
   padding: 20px;
 }
 .intro {
@@ -65,34 +65,42 @@ h1 {
 .container-one {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: white;
   color: rgb(218, 141, 0);
 }
-
 .title {
   font-size: 36px;
   font-weight: extra bold;
   padding: 0;
   margin: 0;
 }
-
 .content {
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
+  gap: 4em;
+  margin-bottom: 40px;
 }
-figcaption {
+.content p {
   text-align: center;
+  font-size: 18px;
+}
+.content p:hover {
+  background-color: rgb(85, 107, 47);
+  border-radius: 10px;
 }
 .content img {
   width: 200px;
   height: 300px;
   border: 4px solid darkolivegreen;
-  padding: 10px;
+  padding: 5px;
 }
 .quote {
-  padding: 2px 100px;
+  padding: 20px 100px;
 }
+
 .container-two {
   display: flex;
   justify-content: center;
@@ -100,7 +108,7 @@ figcaption {
   flex-direction: column;
   font-size: 36px;
   font-style: italic;
-  background-color: rgb(207, 204, 204);
+  background-color: rgba(85, 107, 47, 0.781);
 }
 .container-three {
   display: flex;
@@ -113,7 +121,7 @@ figcaption {
   justify-content: space-between;
   align-items: center;
   color: rgb(218, 141, 0);
-  background-color: darkolivegreen;
+  background-color: rgb(243, 236, 222);
   padding: 1em;
   border-radius: 10px;
   gap: 3em;
