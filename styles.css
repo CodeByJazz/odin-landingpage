@@ -1,7 +1,6 @@
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-
   display: flex;
   flex-direction: column;
 }
@@ -62,40 +61,51 @@ h1 {
   border: 2px solid orange;
 }
 /* -------------content-student work--------------- */
-.container-one {
+#info-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 2em;
   background-color: white;
-  color: rgb(218, 141, 0);
 }
-.title {
+#info-container h2 {
   font-size: 36px;
-  font-weight: extra bold;
-  padding: 0;
-  margin: 0;
-}
-.content {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: center;
-  gap: 4em;
+  border: 5px dotted darkolivegreen;
+  border-radius: 40px;
+  padding: 10px 40px;
+  font-weight: bolder;
+  color: darkorange;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
-.content p {
-  text-align: center;
-  font-size: 18px;
+.items-container {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
 }
-.content p:hover {
-  background-color: rgb(85, 107, 47);
-  border-radius: 10px;
+.info-frame img {
+  align-items: center;
+  max-height: 300px;
+  max-width: 200px;
+  border: 2px solid darkolivegreen;
+  border-radius: 40px;
+  padding: 6px;
+  max-width: 100%;
 }
-.content img {
-  width: 200px;
-  height: 300px;
-  border: 4px solid darkolivegreen;
+.subtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  font-size: 14px;
+  font-style: italic;
   padding: 5px;
+  color: darkorange;
+}
+p:hover {
+  background-color: darkolivegreen;
+  border-radius: 20px;
 }
 .quote {
   padding: 20px 100px;
@@ -145,3 +155,44 @@ button {
   background-color: black;
   color: white;
 }
+
+/* --------3/7/22 version of code------------- */
+/* .container-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: rgb(218, 141, 0);
+}
+.title {
+  font-size: 36px;
+  font-weight: extra bold;
+  padding: 0;
+  margin: 0;
+}
+.content {
+  display: flex;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  gap: 4em;
+  margin-bottom: 40px;
+}
+
+.content p {
+  text-align: center;
+  font-size: 18px;
+}
+.content p:hover {
+  background-color: darkolivegreen;
+  border-radius: 10px;
+}
+.content img {
+  width: 200px;
+  height: 300px;
+  border: 4px solid darkolivegreen;
+  padding: 5px;
+  margin: 0;
+} */
